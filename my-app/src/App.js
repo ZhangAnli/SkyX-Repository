@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 //pages imports
 import Home from './pages/home'; 
-import Pricecomparison from './pages/pricecomparison';
+import Destinationcomparison from './pages/destinationcomparison';
 import Pricemap from './pages/pricemap';
 import Pricechart from './pages/pricechart';
 import Pricealert from './pages/pricealert'; 
@@ -16,7 +16,7 @@ function App() {
       <Router> 
         <Switch>
           <Route path ="/" exact component={Home} /> 
-          <Route path ="/pricecomparison" component={Pricecomparison} />
+          <Route path ="/destinationcomparison" component={Destinationcomparison} />
           <Route path ="/pricemap" component={Pricemap} />
           <Route path ="/pricechart" component={Pricechart} />
           <Route path ="/buyorder" component={Pricealert} />

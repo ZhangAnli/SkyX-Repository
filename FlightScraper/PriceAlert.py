@@ -11,6 +11,20 @@ current_date = datetime.date.today()
 scrape_start = current_date + datetime.timedelta(30)
 delete_date = current_date + datetime.timedelta(29)
 
+
+def country_picker(country):
+    if country == "DPS":
+        return "Denpasar, Bali"
+    elif country == "KUL":
+        return "Kuala Lumpur, Malaysia"
+    elif country == "HKG":
+        return "Hong Kong"
+    elif country == "TYO":
+        return "Tokyo, Japan"
+    else:
+        return "London, United Kingdom"
+
+
 def price_alert(country):
     dps_ref = db.collection("Price Alerts").document(country)
     # loop through the 14 days in Firebase
@@ -23,15 +37,17 @@ def price_alert(country):
         scrape_price = int(scrape_dict["Price"][1:])
         scrape_url = scrape_dict["URL"]
         settled_queries = []
+        city = country_picker(country)
         # compare alert price with scrape price if there are queries
         if my_dict is not None:
             for key in my_dict.keys():
-                user_alert_price = my_dict[key]["Alert Price"]
-                first_name = my_dict[key]["First Name"]
-                last_name = my_dict[key]["Last Name"]
+                user_alert_price = my_dict[key]["AlertPrice"]
+                first_name = my_dict[key]["FirstName"]
+                last_name = my_dict[key]["LastName"]
                 if scrape_price <= user_alert_price:
                     # SEND EMAIL TO THIS USER (KEY)
-                    EmailEngine.send_email(key, first_name, last_name, str(user_alert_price), str(scrape_price), scrape_url)
+                    EmailEngine.send_email(key, first_name, last_name, str(user_alert_price),
+                                           city, str(scrape_price), scrape_url)
                     # remove user from Firebase once email sent
                     settled_queries.append(key)
         for query in settled_queries:

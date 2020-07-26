@@ -205,6 +205,34 @@ def updateMonthlyLow(city):
     # upload updated all time average onto Firebase
     low_ref.set(dataset, merge = True)
 
+
+def updateUpwardVolatility(city):
+    ref = db.collection('flight_price_' + city).document('Prices')
+    ref_dict = ref.get().to_dict()
+    avg = ref_dict["All Time Average"]
+    high = ref_dict["All Time High"]
+    upwardVol = ((high - avg) / avg) * 100
+    print(upwardVol)
+    dataset = {
+        u'Upward Volatility': upwardVol
+    }
+    # upload upward volatility onto Firebase
+    ref.set(dataset, merge=True)
+
+
+def updateDownwardVolatility(city):
+    ref = db.collection('flight_price_' + city).document('Prices')
+    ref_dict = ref.get().to_dict()
+    avg = ref_dict["All Time Average"]
+    low = ref_dict["All Time Low"]
+    downwardVol = ((avg - low) / avg) * 100
+    print(downwardVol)
+    dataset = {
+        u'Downward Volatility': downwardVol
+    }
+    # upload downward volatility onto Firebase
+    ref.set(dataset, merge=True)
+
 current_date = datetime.date.today()
 scrape_start = current_date + datetime.timedelta(30)
 
@@ -214,6 +242,8 @@ updateLowest("DPS", scrape_start)
 updateAllTimeAverage("DPS")
 updateAllTimeHigh("DPS")
 updateAllTimeLow("DPS")
+updateUpwardVolatility("DPS")
+updateDownwardVolatility("DPS")
 
 updateAverage("HKG", scrape_start)
 updateHighest("HKG", scrape_start)
@@ -221,6 +251,8 @@ updateLowest("HKG", scrape_start)
 updateAllTimeAverage("HKG")
 updateAllTimeHigh("HKG")
 updateAllTimeLow("HKG")
+updateUpwardVolatility("HKG")
+updateDownwardVolatility("HKG")
 
 updateAverage("KUL", scrape_start)
 updateHighest("KUL", scrape_start)
@@ -228,6 +260,8 @@ updateLowest("KUL", scrape_start)
 updateAllTimeAverage("KUL")
 updateAllTimeHigh("KUL")
 updateAllTimeLow("KUL")
+updateUpwardVolatility("KUL")
+updateDownwardVolatility("KUL")
 
 updateAverage("LON", scrape_start)
 updateHighest("LON", scrape_start)
@@ -235,6 +269,8 @@ updateLowest("LON", scrape_start)
 updateAllTimeAverage("LON")
 updateAllTimeHigh("LON")
 updateAllTimeLow("LON")
+updateUpwardVolatility("LON")
+updateDownwardVolatility("LON")
 
 updateAverage("TYO", scrape_start)
 updateHighest("TYO", scrape_start)
@@ -242,6 +278,8 @@ updateLowest("TYO", scrape_start)
 updateAllTimeAverage("TYO")
 updateAllTimeHigh("TYO")
 updateAllTimeLow("TYO")
+updateUpwardVolatility("TYO")
+updateDownwardVolatility("TYO")
 
 #Update monthly high at the start of the month
 if(current_date.day == 1):

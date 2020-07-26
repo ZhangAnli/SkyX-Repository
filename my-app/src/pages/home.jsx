@@ -4,7 +4,7 @@ import '../index.css';
 //component imports 
 import Logo from '../components/logo'; 
 import Navbar from '../components/navbar';
-import Cards from '../components/cards'; 
+import Recommendations from '../components/recommendations';
 import Features from '../components/features'; 
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
     <Logo /> 
 
     {/* Recommendations */}
-    <Cards />
+    <Recommendations />
 
     <h1 className="sections" id="featuresHeader"> Features</h1>
     <hr></hr>

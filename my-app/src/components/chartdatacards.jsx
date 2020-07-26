@@ -31,6 +31,8 @@ async function getFirebaseData(city) {
     const monthly_average = await document.get("Monthly Average");
     const monthly_high = await document.get("Monthly High");
     const monthly_low = await document.get("Monthly Low");
+    const upward_vol = await document.get("Upward Volatility");
+    const downward_vol = await document.get("Downward Volatility");
     var output_arr = [];
     output_arr[0] = all_time_average.toFixed(2);
     output_arr[1] = all_time_high; 
@@ -38,6 +40,8 @@ async function getFirebaseData(city) {
     output_arr[3] = monthly_average.toFixed(2);
     output_arr[4] = monthly_high;
     output_arr[5] = monthly_low;
+    output_arr[6] = upward_vol.toFixed(2);
+    output_arr[7] = downward_vol.toFixed(2);
     return output_arr;
 }
 
@@ -50,9 +54,11 @@ async function getFirebaseData(city) {
             all_time_low: '',
             monthly_average: '',
             monthly_high: '',
-            monthly_low: ''
+            monthly_low: '',
+            upward_vol: '',
+            downward_vol: ''
         }; 
-    }
+    }m
   
   async componentDidMount() { 
     const city = cityPicker(this.props.name);
@@ -63,7 +69,9 @@ async function getFirebaseData(city) {
         all_time_low: all_time_prices[2],
         monthly_average: all_time_prices[3],
         monthly_high: all_time_prices[4],
-        monthly_low: all_time_prices[5]
+        monthly_low: all_time_prices[5],
+        upward_vol: all_time_prices[6],
+        downward_vol: all_time_prices[7]
       })
   }
 
@@ -109,6 +117,8 @@ async function getFirebaseData(city) {
             monthly_average={ this.state.monthly_average }
             monthly_high={ this.state.monthly_high }
             monthly_low={ this.state.monthly_low }
+            upward_vol={ this.state.upward_vol }
+            downward_vol={ this.state.downward_vol }
             />
         </div>
         );

@@ -66,10 +66,10 @@ export default function OutlinedCard() {
             <Card className={classes.root} variant="outlined">
             <CardContent className ="features">
                 <Typography className="featTextHeader" variant="h6" component="h1">
-                Price Comparison
+                Destination Comparison
                 </Typography>
                 <Typography className="featText" color="textSecondary">
-                Price Comparison provides users with a side-by-side comparison of airlines with the same destinations. It provides users with a clearer understanding of both airlines.  
+                Destination Comparison provides users with a side-by-side comparison of flight prices to two different destinations. It provides users with a clearer understanding between the two.  
                 </Typography>
             </CardContent>
             <CardActions>
@@ -82,10 +82,10 @@ export default function OutlinedCard() {
             <Card className={classes.root} variant="outlined">
             <CardContent className ="features">
                 <Typography className="featTextHeader" variant="h6" component="h1">
-                Buy Order 
+                Price Alert 
                 </Typography>
                 <Typography className="featText" color="textSecondary">
-                Buy Order is a function where users can place a specified price. Once the tracking engine determines that the target price has been hit, it will automate the ticket purchase process. 
+                Price Alert Order is a function where users can place a specified price. Once the tracking engine determines the price is achieved, an automated email notification will be sent. 
                 </Typography>
             </CardContent>
             <CardActions>

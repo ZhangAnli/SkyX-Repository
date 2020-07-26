@@ -1,0 +1,67 @@
+{
+"type": "FeatureCollection",
+"features": [
+    {
+    "type": "Feature",
+    "properties": {
+        "NAME": "Tokyo",
+        "CODE": "TYO",
+        "COUNTRYID":0
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [35.6894, 139.6917]
+    }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "NAME": "Hong Kong", 
+            "CODE": "HKG",
+            "COUNTRYID":1
+            
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [22.3193, 114.1694]
+        }
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "NAME": "Bali", 
+            "CODE": "DPS",
+            "COUNTRYID":2
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-8.3405, 115.0920]
+        }
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "NAME": "Kuala Lumpur", 
+            "CODE": "KUL",
+            "COUNTRYID":3
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [3.1390, 101.6869]
+        }
+    }, 
+    {
+        "type": "Feature",
+        "properties": {
+            "NAME": "London", 
+            "CODE": "LON",
+            "COUNTRYID":4
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [51.5074, 0.1278]
+        }
+    }   
+    ]
+  }
+

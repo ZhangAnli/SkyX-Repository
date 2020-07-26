@@ -2,7 +2,7 @@ import React from 'react';
 import './pages.css'; 
 import Navbar from '../components/navbar';
 import { Container } from '@material-ui/core'
-import Form from '../components/pricealertform'; 
+import PriceAlertForm from '../components/pricealertform'; 
 
 //Price Alert Form 
 class Pricealert extends React.Component  {
@@ -22,7 +22,7 @@ class Pricealert extends React.Component  {
           <hr></hr>
           <Container className="featuresExplainer">Price Alert is a function where you can place an alert that will notify you once your alert price has been hit.
           </Container>
-          <Form /> 
+          <PriceAlertForm /> 
 
         </div>
     );

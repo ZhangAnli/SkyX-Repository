@@ -1,0 +1,15 @@
+,Date,Origin,Destination,Price,Departure Time,Arrival Time,Flight duration,URL
+0,2020-08-02,SIN,TYO,$358,10:30,12:15,12h 45m,https://www.kayak.com/book/flight?code=GuECJnGO2p.dBmQ8fgUOlgKCwPwRb8L4Q.35751.125e3daf9024717bd7650b352dfa65ac&h=86fad31d842d&sub=E-14762c8f799
+1,2020-08-03,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuHCJlHgvr.dBmQ8fgUOlgKCwPwRb8L4Q.35751.2d6ed7859a8f7c3be81f95dc1502b40d&h=836b46a3ffd6&sub=E-14762c8f799
+2,2020-08-04,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuFiPHLhFP.dBmQ8fgUOlgKCwPwRb8L4Q.35751.bd9e92763e5a621ff79643c71b502c36&h=3355a901dc31&sub=E-14762c8f799
+3,2020-08-05,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuGCLlz_oP.dBmQ8fgUOlgKCwPwRb8L4Q.35751.91eed9748543934085cdc5c6eee38b11&h=3114880e14e3&sub=E-14762c8f799
+4,2020-08-06,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuGCHw05sN.dBmQ8fgUOlgKCwPwRb8L4Q.35751.c017d316cbce61a520daecf0a00d5916&h=b787875c2ee9&sub=E-14762c8f799
+5,2020-08-07,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuFiTir1iS.dBmQ8fgUOlgKCwPwRb8L4Q.35751.98087ce618916ecbf3c8448b53d9e6c3&h=2da26ce3c776&sub=E-14762c8f799
+6,2020-08-08,SIN,TYO,$257,6:10,2:20,7h 10m,https://www.kayak.com/book/flight?code=GuGiMgKZzW.6We7wBYoN-cNUvH8T-y68A.25609.f9441d6f37292b417855965f6ec8dcd5&h=4a199c70b547&sub=E-139119fa0bd
+7,2020-08-09,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuGiLSKDyc.dBmQ8fgUOlgKCwPwRb8L4Q.35751.d63efdddd0b32b36664537741c5247de&h=96707de1f6bb&sub=E-14762c8f799
+8,2020-08-10,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuFCOEQiGh.dBmQ8fgUOlgKCwPwRb8L4Q.35751.8b0d6f919cf07e3f72a2cead5533fdb9&h=f4b96354d62e&sub=E-14762c8f799
+9,2020-08-11,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuHiPaSS0T.dBmQ8fgUOlgKCwPwRb8L4Q.35751.fd22fd7986fd046ef36a48ef067b512e&h=5544b2ea03cf&sub=E-14762c8f799
+10,2020-08-12,SIN,TYO,$358,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuECN9cAOA.dBmQ8fgUOlgKCwPwRb8L4Q.35751.6e13a18c8892c726f2e46e825b30f99d&h=e5a0386031cd&sub=E-14762c8f799
+11,2020-08-13,SIN,TYO,$415,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuFiIy4TCT.dBmQ8fgUOlgKCwPwRb8L4Q.41491.6e87f7e10985f9069bd2b6280c9d7bcc&h=69dbae69e5d6&sub=E-14762c8f799
+12,2020-08-14,SIN,TYO,$516,12:30,12:10,10h 40m,https://www.kayak.com/book/flight?code=GuEiLwvw8t.dBmQ8fgUOlgKCwPwRb8L4Q.51535.9452d861b72fc1c8538dcd1a767bfc2d&h=87508c070d34&sub=E-14762c8f799
+13,2020-08-15,SIN,TYO,$466,12:30,1:40,12h 10m,https://www.kayak.com/book/flight?code=GuGCFRUQtC.dBmQ8fgUOlgKCwPwRb8L4Q.46513.3cd74a8ec2008ccc1b85e5b7587139f2&h=f289e1cf27d7&sub=E-14762c8f799

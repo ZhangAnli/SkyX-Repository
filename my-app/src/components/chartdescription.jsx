@@ -30,7 +30,9 @@ class ChartDescription extends React.Component {
               <div> This Month's Average: ${ this.props.monthly_average }</div><hr className = "chartDataLine" />
               <div> This Month's High: ${ this.props.monthly_high }</div><hr className = "chartDataLine" />
               <div> This Month's Low: ${ this.props.monthly_low }</div><hr className = "chartDataLine" />
-              <div> This Month's Price Range: ${ this.props.monthly_low } - ${ this.props.monthly_high }</div>
+              <div> This Month's Price Range: ${ this.props.monthly_low } - ${ this.props.monthly_high }</div><hr className = "chartDataLine" />
+              <div> Upward Volatility: { this.props.upward_vol }%</div><hr className = "chartDataLine" />
+              <div> Downward Volatility: { this.props.downward_vol }%</div>
             </Container>
         </Paper> 
       </div>

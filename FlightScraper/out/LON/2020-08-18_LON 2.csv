@@ -1,0 +1,15 @@
+,Date,Origin,Destination,Price,Departure Time,Arrival Time,Flight duration,URL
+0,2020-08-18,SIN,LON,$366,6:00,9:10,22h 10m,https://www.kayak.com/book/flight?code=GZGCPxWQYQ.6fzR64IlVNN068dNKXt9eA.36575.212428d1a484e470c5b6f987c72d73a7&h=e4bc9be4c71c&sub=E-1c08585fb65
+1,2020-08-19,SIN,LON,$396,9:25,6:20,15h 55m,https://www.kayak.com/book/flight?code=GZFCMSV8-M.-COZ-Slz34a7ImCnqdurig.39520.771b526532d8098019c4c797cc57808c&h=8848ff3ac5b4&sub=E-1e920e1ecb2
+2,2020-08-20,SIN,LON,$366,6:00,9:10,22h 10m,https://www.kayak.com/book/flight?code=GZGCDdx_42.6fzR64IlVNN068dNKXt9eA.36575.5bcb95f6869f29cd7ea681d626edf86b&h=6af5b789d08c&sub=E-12c1afaf251
+3,2020-08-21,SIN,LON,$387,11:25,9:20,16h 55m,https://www.kayak.com/book/flight?code=GZFiNbBLAI.-COZ-Slz34a7ImCnqdurig.38634.da21cc31dcc0cfbefa57423c3a1a98b8&h=f81d6a989f5a&sub=E-1e920e1ecb2
+4,2020-08-22,SIN,LON,$387,11:25,9:20,16h 55m,https://www.kayak.com/book/flight?code=GZGCEgwRaO.-COZ-Slz34a7ImCnqdurig.38634.8fad0f832554e40ba073250082966935&h=d22f0aeba938&sub=E-1e920e1ecb2
+5,2020-08-23,SIN,LON,$415,2:50,12:05,16h 15m,https://www.kayak.com/book/flight?code=GZECI35ami.6fzR64IlVNN068dNKXt9eA.41411.185c0c6f2a224b698a0f961afe044ac2&h=1d17feddfe8b&sub=E-144ad83168d
+6,2020-08-24,SIN,LON,$396,9:25,6:20,15h 55m,https://www.kayak.com/book/flight?code=GZFCBeoDPA.-COZ-Slz34a7ImCnqdurig.39520.2bf0a03ee35b9b0752552307f40a547b&h=417904edbde3&sub=E-1e920e1ecb2
+7,2020-08-25,SIN,LON,$389,11:25,9:20,16h 55m,https://www.kayak.com/book/flight?code=GZECMrN_zC.T9JO6Pxmwa8mFcdAejOqIg.38900.52cd3ede8f453a58a64ebe197d690c22&h=4c5dd1ce5f2f&_kw_pbranded=true&sub=E-19e8546fc3c
+8,2020-08-26,SIN,LON,$396,9:25,6:20,15h 55m,https://www.kayak.com/book/flight?code=GZFCNvDoOZ.-COZ-Slz34a7ImCnqdurig.39520.130985ccd42f862ba35655592a40851f&h=f35fcdbff193&sub=E-1e920e1ecb2
+9,2020-08-27,SIN,LON,$366,6:00,9:10,22h 10m,https://www.kayak.com/book/flight?code=GZEiLTqF1V.6fzR64IlVNN068dNKXt9eA.36575.f5b6bf0baf9c9ae0c09ad2df557dc229&h=a479a76493d8&sub=E-1c63390ecb9
+10,2020-08-28,SIN,LON,$387,11:25,9:20,16h 55m,https://www.kayak.com/book/flight?code=GZHiN4jUzi.-COZ-Slz34a7ImCnqdurig.38634.6d3f686ed32c2fcd9a39ee25db6e37a7&h=b86871ee7d77&sub=E-1e920e1ecb2
+11,2020-08-29,SIN,LON,$387,11:25,9:20,16h 55m,https://www.kayak.com/book/flight?code=GZGCKsTj-V.-COZ-Slz34a7ImCnqdurig.38634.c81429e62cb7e544589df5f053ce7385&h=6231bf4648bd&sub=E-1e920e1ecb2
+12,2020-08-30,SIN,LON,$415,2:50,12:05,16h 15m,https://www.kayak.com/book/flight?code=GZEiDFMWC5.6fzR64IlVNN068dNKXt9eA.41411.db7fd74c6b599e595e8b59acb4a6c27f&h=6d4bd059d199&sub=E-144ad83168d
+13,2020-08-31,SIN,LON,$396,9:25,7:05,16h 40m,https://www.kayak.com/book/flight?code=GZFCMRT1k_.-COZ-Slz34a7ImCnqdurig.39520.ff0fade22127a39c71c7ca698a10022e&h=bdb03af853bc&sub=E-1e920e1ecb2
